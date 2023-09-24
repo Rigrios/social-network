@@ -1,0 +1,30 @@
+.nav {
+    width: 300px;
+
+    margin-top: 60px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.link {
+    color: #f1ecec;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: serif;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background: linear-gradient(
+        324deg,
+        rgba(33, 33, 33, 1) 0%,
+        rgb(40, 40, 40) 49%,
+        rgb(24, 24, 24) 100%
+      );
+}
+

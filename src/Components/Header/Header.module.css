@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222123;
+    color: rgb(221, 221, 221);
+    font-family: serif;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header__body {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 60px;
+}
+
+.input {
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #323232;
+    color: aliceblue;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+}
+
+.logoIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #959595;
+}
